@@ -6,7 +6,7 @@ function MessageSender() {
   const [templateName, setTemplateName] = useState('ny2026')
   const [languageCode, setLanguageCode] = useState('en')
   const [mediaId, setMediaId] = useState('876543219876543')
-  const [csvData, setCsvData] = useState('Name,MobileNumber\nlogesh,918056779031')
+  const [csvData, setCsvData] = useState('Name,MobileNumber\nlogesh,918056779031\nsamrat,918334980100')
 
   const [mediaType, setMediaType] = useState('image')
   const [includeName, setIncludeName] = useState(true)

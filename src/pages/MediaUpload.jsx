@@ -1,7 +1,7 @@
 import { useState } from 'react'
 
 function MediaUpload() {
-  const [accessToken, setAccessToken] = useState('EAALEZCiRf7cMBPyo5bYZCW7K9ZBMFPMYSvnIwZBXivF0XHwi1DpIT02HDUMRFzy8tcY6p15hKrQH4ZAIWd83lC2CMQ74QqgtHCRl1ZAH5abjjoFPoLCC8hRe9DNJWwbjA0Ungzk8yEjbtoQCtRHy5Ib7phvTpoQII8FgKicOHozF0kFwMkofjYeFUu4PWElpfsf2VIsJHLlVdfKpaDfzFEq0ylmdaeozgbcTd6')
+  const [accessToken, setAccessToken] = useState('EAALEZCiRf7cMBR2oayF4lIBKPzls7nXdfMmG3RJZAl7h2vYg9rhTsYNTkp8DmUZCwi1Sfo9fZB18wdY8qExZC5IhZBjk5Tbz2ay3kjxv94mMWRmMFPCwrZABZCKhgGs1PGnZBvDuDkhEHzZC4vIICnJwZBqZCEZCuA3wsVtmxVwSA15XZBYmOKSHZCZAmq3KDXDnrWaNtAZDZD')
   const [phoneNumberId, setPhoneNumberId] = useState('730709853450957')
   const [selectedFile, setSelectedFile] = useState(null)
   const [mediaType, setMediaType] = useState('')
